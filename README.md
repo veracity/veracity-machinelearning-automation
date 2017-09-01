@@ -9,7 +9,14 @@ This project provides code for doing it programmatically.
 User needs to provide all data for connecting to Machine Learning WebServices and Azure Storage. 
 That means Retraining WebService and Predictive Web Service needs to be set up. Also Azure Blob Storage needs to be provided.
 
+### Azure Function - RetrainModelFunction project
+Sample code showing how to use MachineLearningRetrain algorithm inside Azure Function which is triggered when blob container gets updated with blobs.
+
 ### Useful articles:
+Azure Functions with Blob Storage trigger
+
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
+
 Rertain Machine Learning overview:
 
 https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-retrain-machine-learning-model
