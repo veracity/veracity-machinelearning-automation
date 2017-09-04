@@ -12,6 +12,9 @@ That means Retraining WebService and Predictive Web Service needs to be set up. 
 ### Azure Function - RetrainModelFunction project
 Sample code showing how to use MachineLearningRetrain algorithm inside Azure Function which is triggered when blob container gets updated with blobs.
 
+### Consume Machine Learning Web Service - MachineLearningConsumer project
+Sample code showing how to consume Web Service - use REST API to send it data and get predictions.
+
 ### Useful articles:
 Azure Functions with Blob Storage trigger
 
